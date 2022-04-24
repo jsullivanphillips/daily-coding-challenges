@@ -13,4 +13,12 @@ class April19_01Test < Test::Unit::TestCase
     def test_2
         assert_equal [0, 1], two_sum([3,3], 6) , 'twosum test2'
     end
+
+    def test_3
+        assert_equal [0, 1], two_sum([-3,3], 0) , 'twosum test2'
+    end
+
+    def test_4
+        assert_equal [0, 2], two_sum([0,2,3], 3) , 'twosum test2'
+    end
 end
