@@ -36,5 +36,3 @@ def cdr(pair)
     return pair.second
 end
 
-puts(car(cons(3,4)))
-puts(cdr(cons(3,4)))
